@@ -8,8 +8,8 @@ body{
     display: grid;
     grid-template-columns: repeat(10,1fr);
     grid-template-rows: repeat(10,1fr);
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 #sidebar{
     background-color:rgb(25, 148, 219);
@@ -21,13 +21,7 @@ body{
     flex-direction: column;
     gap: 20px;
 }
-#header{
-    background-color: red;
-    grid-column-start: 3;
-    grid-column-end: 11;
-    grid-row-start:1;
-    grid-row-end:3 ;
-}
+
 #section{
     background-color: blue;
     grid-column-start: 3;
