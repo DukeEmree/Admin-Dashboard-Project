@@ -1,0 +1,1 @@
+import { mdiAdvertisements } from '@mdi/js';
